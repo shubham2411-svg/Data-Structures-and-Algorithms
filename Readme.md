@@ -18,16 +18,7 @@ Welcome to my Daily DSA Practice repository! This repository is dedicated to my 
 - To showcase consistency and dedication to learning DSA.
 - To prepare for technical interviews and coding competitions.
 
-## Daily Practice Log
 
-Here is a summary of my daily practice sessions:
-
-| Date       | Problem Statement                          | Data Structure/Algorithm Used | Notes/Challenges                     |
-|------------|-------------------------------------------|-------------------------------|--------------------------------------|
-| 2024-11-01 | Two Sum                                   | Array                         | First attempt at using hash maps.   |
-| 2024-11-02 | Merge Two Sorted Lists                   | Linked List                   | Focused on pointer manipulation.     |
-| 2024-11-03 | Binary Tree Inorder Traversal            | Tree                          | Worked on recursive vs iterative.    |
-| ...        | ...                                       | ...                           | ...                                  |
 
 ## Topics Covered
 
