@@ -232,6 +232,32 @@ void insertBeforeNode(Node* node, int val){
 
 
 
+// Reversal of linked list
+
+Node* reverseDLL(Node* head){
+    if(head == NULL || head->next == NULL){
+        return head;
+    }
+
+    Node* prev = NULL;
+    Node* current = head;
+    while(current != NULL){
+        prev = current->back;
+
+        current->back = current->next;
+        current->next = prev;
+
+        current = current->back;
+
+
+    }
+
+    return prev->back;
+}
+
+
+
+
 int main(){
     vector<int> arr = {12, 5, 8, 7};
     Node* head = convertArr2DLL(arr);
