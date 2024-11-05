@@ -190,7 +190,7 @@ Node* insertposition(Node* head, int el, int k){
 
 }
 
-        // Insertion befor value
+        // Insertion before value
 
 Node* insertbeforevalue(Node* head, int el, int val){
     if(head == NULL){
